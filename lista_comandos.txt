@@ -1,0 +1,8 @@
+BASIC GIT COMMANDS
+git init: starts an empty git repository
+git add file.extension: adds new or changed files to git
+git add . or *: adds all new or changed files in the directory to git
+git status: displays changes in the working tree (untracked files, staged or unstaged)
+git log: displays what changes were made in the directory (by whom and when)
+git commit -m "write your message here": creates a "label" to the staged changes
+git commit -am "write your message here": incorporates "git add" and "git commit" in the same command
