@@ -1,19 +1,35 @@
-BASIC GIT COMMANDS
+***BASIC GIT COMMANDS***
+
 git init: starts an empty git repository
+
 git add file.extension: adds new or changed files to git
     git add . or *: adds all new or changed files in the directory to git
+
 git status: displays changes in the working tree (untracked files, staged or unstaged)
+
 git log: displays what changes were made in the directory (by whom and when)
     git log --oneline: displays the information in one line, with less details
     git log --graph: allows the graph visualization of all the commits that have been made in the active branch
     git log --graph --all: allows the graph visualization of all the commits that have been made in all branches
+
 git commit -m "write your message here": creates a "label" to the staged changes
     git commit -am "write your message here": incorporates "git add" and "git commit" in the same command
+
 git branch: lists all the branches in the git repository
+
 git checkout 7-first-digits-of-the-commit: allows you to return to a previous version of the file
     git checkout master: returns to the most recent commit / version of the file in the master branch
     git checkout -b branch-name: creates a new branch
+
 git diff: displays the modifications made in the file (only works if you haven't added the file to git)
+
 git reset HEAD: unstages the file from git
     git reset --hard 7-first-digits-of-the-commit: removes the commits that follow the target commit
+
 git merge branch-name: merges the targeted branch to the master branch (you must be on master branch to perform this action)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+***SENDING A LOCAL GIT PROJECT TO GITHUB***
+
+git remote: checks the existence of a remote repository
